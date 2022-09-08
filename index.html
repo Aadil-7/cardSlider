@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>cardslider</title>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slide">
+            <img src="./img1.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img2.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img3.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img4.png" alt="">
+        </div>
+        <a href="#" class="prev" onclick="changeSlide(-1)">❮</a>
+        <a href="#" class="next" onclick="changeSlide(1)">❯</a>
+        <div class="slide-nav">
+            <span class="dot" onclick="slidNave(1)"></span>
+            <span class="dot" onclick="slidNave(2)"></span>
+            <span class="dot" onclick="slidNave(3)"></span>
+            <span class="dot" onclick="slidNave(4)"></span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
