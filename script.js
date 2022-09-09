@@ -6,7 +6,8 @@ const changeSlide = (n)=>{
 }
 
 const slidNave = (n)=>{
-    slideShow(slideIndex = n)}
+    slideShow(slideIndex = n)
+}
 
 function slideShow(n) {
     const slides = Array.from(document.getElementsByClassName("slide"))
@@ -20,4 +21,5 @@ function slideShow(n) {
     dots[slideIndex - 1].classList.add(`activedot`)
 }
 
-setInterval(()=>changeSlide(1), 5000)
+
+ setInterval(()=>changeSlide(1), 3000)
